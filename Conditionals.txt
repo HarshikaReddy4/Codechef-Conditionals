@@ -1,0 +1,149 @@
+Question 1 :
+
+In Java, what statement do you use to check whether a variable 
+
+A is equal to 2?
+And if it is, print 9.
+
+Option 1:
+
+if(a=2):
+    System.out.println(9);
+
+Option 2:
+if(a==2):
+    System.out.println(9);
+
+Option 3:
+if(a==2) {
+    System.out.println(9);
+}
+
+Option 4:
+if(a=2) {
+    System.out.println(9);
+}
+
+Answer: Option 3
+
+
+Quetion 2:
+In ChefLand, human brain speed is measured in bits per second (bps). Chef has a threshold limit of
+X bits per second above which his calculations are prone to errors. If Chef is currently working at 
+Y bits per second, is he prone to errors?
+
+If Chef is prone to errors print YES, otherwise print NO.
+
+Solution: 
+/* package codechef; // don't place package name! */
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+/* Name of the class has to be "Main" only if the class is public. */
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		Scanner sc = new Scanner(System.in);
+		int x = sc.nextInt();
+		int y = sc.nextInt();
+		if( x >= y){
+		    System.out.println("NO");
+		}
+		else{
+		    System.out.println("Yes");
+		}
+	}
+}
+
+
+Question3:
+Alice has scored 
+X marks in her test and Bob has scored 
+Y marks in the same test.
+Alice is happy if she scored at least twice the marks of Bob’s score.
+Print "Yes" is she is happy.
+Other wise print nothing.
+
+Option 1:
+
+if (X >= 2 * Y) {
+    System.out.println("YES");
+}
+Option 2:
+
+if (X > 2*Y) {
+    System.out.println("YES");
+}
+Option 3:
+
+if (2*Y <= X) {
+    System.out.println("YES");
+}
+Option 4:
+
+if (2*Y >= X) {
+    System.out.println("YES");
+}
+
+Answer:
+Option 1 and 3
+
+Question4:
+Alice has scored 
+X marks in her test and Bob has scored 
+Y marks in the same test. Alice is happy if she scored at least twice the marks of Bob’s score. Determine whether she is happy or not.
+
+Solution:
+/* package codechef; // don't place package name! */
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+/* Name of the class has to be "Main" only if the class is public. */
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		Scanner sc = new Scanner(System.in);
+		int x = sc.nextInt();
+		int y = sc.nextInt();
+		if( x >= 2* y){
+		    System.out.println("YES");
+		}
+		else{
+		    System.out.println("NO");
+		}
+	}
+}
+
+Question5:
+Oneful pairs are (1,55); (55,1); (7,13)
+
+Question6:
+/* package codechef; // don't place package name! */
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+/* Name of the class has to be "Main" only if the class is public. */
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		Scanner sc = new Scanner(System.in);
+		int x = sc.nextInt();
+		int y = sc.nextInt();
+		int z = x + y + (x * y);
+		if (z == 111){
+		    System.out.println("Yes");
+		}
+		else{
+		    System.out.println("No");
+		}
+	}
+}
