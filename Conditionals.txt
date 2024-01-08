@@ -35,7 +35,7 @@ Y bits per second, is he prone to errors?
 If Chef is prone to errors print YES, otherwise print NO.
 
 Solution: 
-/* package codechef; // don't place package name! */
+
 
 import java.util.*;
 import java.lang.*;
